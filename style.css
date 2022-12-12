@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+header{
+    width: 100%;
+    background-color: white;
+    flex-direction:column ;
+    justify-content:space-between ;
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-direction: end;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 0px;
+}
+li{
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.banner{
+    background: transparent url(./img/header/laranja\ azul\ recorte.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: 500px;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+p{
+    color: white;
+}
+.portifolio{
+    font-weight: bold;
+}
+.maindiv{
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start;
+}
