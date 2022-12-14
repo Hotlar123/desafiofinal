@@ -32,9 +32,11 @@ ul{
 }
 li{
     font-size: 23px;
+    transition: 100ms linear;
 }
 li:hover{
     transform: scale(104%);
+    font-weight: bold;
 }
 .portifolio{
     font-weight: 900;
@@ -67,6 +69,7 @@ p{
     font-weight: 200;
     font-family: "Montserrat", sans-serif;
     width: 210px;
+    transition: 100ms linear;
 }
 p:hover{
     transform: scale(104%);
@@ -81,6 +84,7 @@ p:hover{
 }
 .secondSectionMain img{
     height: 42vh;
+    transition: 100ms linear
 }
 img:hover{
     transform: scale(104%);
